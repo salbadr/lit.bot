@@ -21,8 +21,6 @@ developer_message = [
 ]
 
 # Not used but kept for reference
-
-
 async def chat_using_responses(client, message, prompt):
     try:
         message.append({
@@ -112,7 +110,7 @@ async def main():
         print_statistics(usage=usage)
 
         prompt = input("\nEnter response or type END to end conversation:\n")
-    print("Thanks for using OpenAI chat")
+    print("Thanks for using Lit.bot")
 
 
 if __name__ == "__main__":
